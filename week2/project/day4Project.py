@@ -6,7 +6,7 @@ from collections import defaultdict
 import os
 import json 
 from dotenv import load_dotenv
-from api_clients import create_clients
+from week2.api_clients import create_clients
 
 load_dotenv(dotenv_path="C:/Users/paing/LLMProjects/llm_engineering/api_key.env",override=True)
 OWM_API = os.getenv('OWM_API')
