@@ -22,7 +22,7 @@ def create_clients():
         "ollama": ollama,
         "models": {
             "GROQ_MODEL": "openai/gpt-oss-20b",
-            "OLLAMA_MODEL": "ollama3.2"
+            "OLLAMA_MODEL": "llama3.2"
         }
     }
     return clients

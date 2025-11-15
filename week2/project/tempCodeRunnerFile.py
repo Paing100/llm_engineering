@@ -244,5 +244,6 @@ def chat(message, history):
   return response.choices[0].message.content
 
 def main():
+  
   gr.ChatInterface(fn=chat, type="messages").launch()
 main()
